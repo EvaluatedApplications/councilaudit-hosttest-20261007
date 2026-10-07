@@ -4,8 +4,8 @@
   "generated": "2026-10-07",
   "bundle": {
     "maxHeapMiB": 1024,
-    "gzipMiB": 7.7,
-    "rawMiB": 24.42
+    "rawMiB": 24.42,
+    "wireMiB": 7.79
   },
   "councils": {
     "wokingham": {
@@ -94,7 +94,8 @@
           "source": "https://www.wokingham.gov.uk/foi/supplier-spend-data",
           "sourceKind": "landing-page"
         }
-      ]
+      ],
+      "inputsWireMiB": 5.35
     },
     "bracknellforest": {
       "name": "Bracknell Forest Council",
@@ -390,7 +391,9 @@
           "source": "https://www.bracknell-forest.gov.uk/sites/default/files/2026-09/final-april-2026-to-june-2026.xlsx",
           "sourceKind": "direct-file"
         }
-      ]
+      ],
+      "inputsWireMiB": 8.45
     }
-  }
+  },
+  "wireMeasuredOn": "GitHub Pages, gzip requested, 2026-10-07 (static_host\\wire_sizes_gzip_requested.csv)"
 }
